@@ -1,31 +1,38 @@
 body {margin: 0px;
 padding: 0px;
-  width:360px; 
 }
     
     img {width:360px; }
-    ul{margin:0; padding:0;}
-    li{ display:inline-block; margin:9px; float:right; background:#9C27B0;padding:5px 7px; border}
+    ul{margin:0; margin-top:5px; padding:0; font-family:arial black ; }
+    li{ display:inline-block; margin:3px; float:right;  padding-right:25px; border; font-size:30px; margin-top:13px; }
     a{ text-decoration:none;color:white;
     } 
-   
+  .head{height:50px;;}
  .htag{
  
-   height: 150px;
-   width: 150px;
-   margin-left: 8px;
-   margin-top: 4px;
-   border-radius: 15px;
+   height: 400px;
+   width:400px;
+   margin-left:55px;
+   margin-top: 50px;
+   border-radius: 35px;
    box-shadow: 0px 0px 5px 1px black;
+   transition: 1s;
+   
   
  }
-.htag:hover{
-  width: 345px;
- height: 400px;
- box-shadow: 0px 0px 0px 0px;
- background: black;
+.htag:hover{ height:800px;
+  width: 700px;
+  background: red;
 }
 .htag img {
   
   max-width:100%;
+  max-height: 100%;
 }
+
+.htag img:hover{ height:540px;  width:750px;   }
+.htag{display:inline-block;}
+
+.hk{ background:#E0E0E0; height:530px;  width:100%; }
+.ttt{ background:tomato; height:60px;       }
+.hk img { height:550px; width:100%;     }
